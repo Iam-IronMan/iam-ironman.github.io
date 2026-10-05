@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jiahang Liu — computer graphics, 3D generation, and the data and algorithms behind generative 3D systems.">
+  <meta name="theme-color" content="#f8f9fc">
+  <link rel="canonical" href="https://iam-ironman.github.io/">
+  <meta property="og:title" content="Jiahang Liu · 3D Generation & Computer Graphics">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://iam-ironman.github.io/">
+  <meta property="og:description" content="Research in 3D generation, computer graphics, and data algorithms.">
+  <title>Jiahang Liu · 3D Generation & Computer Graphics</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-shell">
+    <aside class="sidebar" aria-label="Profile and navigation">
+      <a class="monogram" href="#about" aria-label="Jiahang Liu, homepage">JL<span></span></a>
+      <div class="identity">
+        <a class="name" href="#about">Jiahang Liu</a>
+        <p class="chinese-name" lang="zh">刘佳航</p>
+        <p class="profile-line">Computer graphics<br>3D generative AI</p>
+      </div>
+      <nav aria-label="Main navigation">
+        <a class="active" href="#about">About <span>01</span></a>
+        <a href="#research">Research <span>02</span></a>
+        <a href="#practice">Data & systems <span>03</span></a>
+        <a href="#background">Background <span>04</span></a>
+      </nav>
+      <div class="sidebar-note"><span class="small-label">EXPERIENCE</span><p>ByteDance · Seed3D<br>Zhejiang University</p></div>
+    </aside>
+
+    <main id="main">
+      <section id="about" class="intro section-anchor" aria-labelledby="intro-title">
+        <div class="eyebrow"><span class="tiny-square"></span> RESEARCH & ENGINEERING</div>
+        <h1 id="intro-title">3D generation &<br><span>computer graphics.</span></h1>
+        <p class="intro-copy">Hi, I'm Jiahang. I work on <strong>data and algorithms for 3D generation</strong>. My work with ByteDance Seed3D spans geometry, textures, part-level assets, and scenes—from constructing and curating training data to building the systems that deliver it.</p>
+        <p class="intro-copy secondary">I received my master's degree from Zhejiang University, where I worked on facial animation using differentiable rendering. I'm interested in how graphics knowledge, data, and learning come together to create better 3D content.</p>
+        <a class="text-link intro-link" href="#research">Explore selected work <span aria-hidden="true">↘</span></a>
+      </section>
+
+      <section id="research" class="section-anchor research-section" aria-labelledby="research-title">
+        <div class="section-heading"><div><span class="section-number">02 / RESEARCH</span><h2 id="research-title">Selected work</h2></div><span class="section-note">Papers & team projects</span></div>
+        <div id="research-list" class="research-list"></div>
+      </section>
+
+      <section id="practice" class="section-anchor practice-section" aria-labelledby="practice-title">
+        <div class="section-heading"><div><span class="section-number">03 / PRACTICE</span><h2 id="practice-title">Making training data work</h2></div></div>
+        <p class="section-intro">Alongside model researchers, I turn data requirements into practical algorithms and repeatable pipelines.</p>
+        <div class="practice-row"><span class="practice-index">01</span><div><h3>Data quality & curation</h3><p>VLM-based quality assessment, canonical orientation, and visual deduplication. My TextureVLM work covered quality standards, label alignment, and data filtering; the resulting data was used and validated in model training.</p><div class="keywords">VLM assessment <span>·</span> Orientation <span>·</span> Deduplication</div></div></div>
+        <div class="practice-row"><span class="practice-index">02</span><div><h3>Data construction through engines, people & agents</h3><p>I build data-production workflows with Unreal Engine, crowdsourcing, and agents. This includes agent-assisted creation of lettering, typography, and textures for 3D assets.</p><div class="data-workflows" aria-label="Three data construction workflows"><div><strong>Unreal Engine</strong><span aria-hidden="true">→</span><span>Scene collision data</span></div><div><strong>Crowdsourcing</strong><span aria-hidden="true">→</span><span>Geometry & texture data</span></div><div><strong>Agents</strong><span aria-hidden="true">→</span><span>Lettering & texture data</span></div></div><p>I also work with model teams to connect geometry and texture processing, understand remeshing and voxel representations, and address data problems revealed by model outputs.</p></div></div>
+        <div class="practice-row"><span class="practice-index">03</span><div><h3>Infrastructure & retrieval</h3><p>3D asset management, metadata and data-access interfaces, distributed processing, and scene-asset retrieval. I built systems around MongoDB and vector search to make curated assets easier to find and use.</p><div class="keywords">Asset libraries <span>·</span> Data pipelines <span>·</span> Vector search</div></div></div>
+      </section>
+
+      <section id="background" class="section-anchor background-section" aria-labelledby="background-title">
+        <div class="section-heading"><div><span class="section-number">04 / BACKGROUND</span><h2 id="background-title">From graphics to generative 3D</h2></div></div>
+        <div class="education-line"><div><h3>Zhejiang University</h3><p>Master's degree · Computer graphics research</p></div><span class="education-year">2025</span></div>
+        <article class="thesis-feature">
+          <div class="thesis-header"><span class="small-label">MASTER'S THESIS</span><h3>Binocular Video-Driven Facial Animation<br class="desktop-break"> Based on Differentiable Rendering</h3><p class="thesis-subtitle" lang="zh">基于可微渲染的双目视频驱动人脸动画生成</p></div>
+          <figure id="thesis-figure" hidden><img id="thesis-image" alt="Facial animation reconstruction and rendering results from Jiahang Liu's master's thesis"><div class="thesis-image-labels" aria-hidden="true"><span>Input</span><span>Reconstruction</span><span>Relighting</span><span>Novel view</span></div><figcaption>Facial animation reconstructed from binocular video, with editable expressions, viewpoints, and lighting.</figcaption></figure>
+          <p>Recovering editable facial animation from binocular video using a personalized MetaHuman rig, stereo matching, and staged differentiable rendering. The work connects geometric reconstruction, GPU optimization, and animation workflows.</p>
+          <p class="advisor">Advisor: Hongzhi Wu</p>
+        </article>
+      </section>
+      <footer><span>Jiahang Liu <span class="footer-dot">·</span> 刘佳航</span><span>Computer graphics & 3D generation</span></footer>
+    </main>
+  </div>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
