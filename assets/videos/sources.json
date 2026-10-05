@@ -2,19 +2,15 @@
   {
     "project": "Seed3D 2.0",
     "source": "https://seed.bytedance.com/en/seed3d_2_0",
-    "file": "seed3d-2-parts.mp4",
-    "description": "A generated robot separates into its individual parts and reassembles."
-  },
-  {
-    "project": "Pygmalion",
-    "source": "https://pygmalionanonymous.github.io/",
-    "file": "pygmalion-reconstruction.mp4",
-    "description": "A normal-colored reconstruction of a detailed robot rotates in 3D."
+    "originalVideo": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymob0cqgg.mp4",
+    "file": "seed3d-2-showcase.mp4",
+    "description": "Full Seed3D 2.0 showcase, compressed for web playback."
   },
   {
     "project": "Seed3D 1.0",
     "source": "https://seed.bytedance.com/en/seed3d",
-    "file": "seed3d-1-scene.mp4",
-    "description": "A moving camera shows a generated ancient-town scene at night."
+    "originalVideo": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/1vx23mh0jdhl0.mp4",
+    "file": "seed3d-1-showcase.mp4",
+    "description": "Full Seed3D 1.0 showcase, compressed for web playback."
   }
 ]
